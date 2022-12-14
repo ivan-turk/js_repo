@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: bisque;
+}
+
+.form-flex {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+textarea {
+  padding: 20px;
+  border: none;
+  resize: none;
+  outline: none;
+  border-radius: 8px;
+  background-color: bisque;
+  font-size: 20px;
+  width: 100%;
+}
+
+.button1 {
+  height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: grey;
+  color: whitesmoke;
+  font-size: medium;
+}
+
+.button1:hover {
+  background: whitesmoke;
+  color: grey;
+  border: none;
+}

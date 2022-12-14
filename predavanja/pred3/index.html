@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ivan" />
+    <meta name="description" content="JsTesting" />
+    <link rel="stylesheet" href="../pred3/style.css" />
+    <script defer src="../pred3/script.js"></script>
+
+    <title>Stringovi-1</title>
+  </head>
+  <body onload="napuniBody()">
+    <br />
+    <form>
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" /><br />
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" /><br /><br />
+      <input type="submit" value="Submit" onclick="pozdravi(event)" />
+    </form>
+    <p id="pozdrav"></p>
+    <br /><br />
+    <hr />
+    <br />
+
+    <!-- Zamjeni riječ, metoda indexOf() -->
+    <form>
+      <label for="orginalnaRecenica">Orginalna recenica:</label><br />
+      <textarea id="orginalnaRecenica" name="orginalnaRecenica"></textarea><br />
+      <label for="searchTerm">Što mijenjaš?</label><br />
+      <input type="text" id="searchTerm" name="searchTerm" /><br /><br />
+      <label for="replaceTerm">Što želiš da bude umjesto?</label><br />
+      <input type="text" id="replaceTerm" name="replaceTerm" /><br /><br />
+      <input type="submit" value="Zamjena pješke" onclick="zamijeni(event, 'pjeske')" />
+      <input type="submit" value="Lipa zamjena" onclick="zamijeni(event, 'lipo')" />
+    </form>
+    <p id="zamijenjen"></p>
+  </body>
+</html>

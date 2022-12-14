@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unos JS-a u html</title>
+
+    <!-- Unutarnji unos js-a -->
+    <script>
+      console.log("Dobar dan svima - unutarnji js");
+      let myVar = "Pa tako i njima - isto unutarnji js";
+      console.log(myVar);
+    </script>
+
+    <!-- Unos vanjskog js-a -->
+    <script rel="javascript" src="./index.js"></script>
+  </head>
+  <body>
+    <!-- JS iz atributa! -->
+    <button onclick="console.log('JS iz atributa asinkrono')">Klikni me</button>
+  </body>
+</html>

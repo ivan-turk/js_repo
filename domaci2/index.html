@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ivan Turk" />
+    <meta name="description" content="Car racing app - JS Homework" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./js/script.js"></script>
+    <title>Car racing app</title>
+  </head>
+  <body>
+    <header><h1>&#127937 Car racing app &#127937</h1></header>
+    <section class="wrapper-main">
+      <form class="cars">
+        <h2>First car selection</h2>
+        <label for="fname">NAME</label>
+        <input type="text" id="fname" name="fname" placeholder="Name first racing car!" required />
+
+        <div class="color-selection1">
+          <input class="radio-button" type="radio" id="red1" name="color" value="red" />
+          <label for="red">Red</label><br />
+
+          <input type="radio" id="blue1" name="color" value="blue" />
+          <label for="blue">Blue</label><br />
+
+          <input type="radio" id="yellow1" name="color" value="yellow" />
+          <label for="yellow">Yellow</label><br />
+
+          <input type="radio" id="green1" name="color" value="green" />
+          <label for="green">Green</label><br />
+        </div>
+
+        <label for="topspeed">TOP SPEED</label>
+        <input type="number" id="topspeed" name="topspeed" placeholder="Enter top speed in km/h..." required />
+      </form>
+
+      <form class="cars">
+        <h2>Second car selection</h2>
+        <label for="sname">NAME</label>
+        <input type="text" id="sname" name="sname" placeholder="Name second racing car!" required />
+
+        <div class="color-selection1">
+          <input class="radio-button" type="radio" id="red2" name="color" value="red" />
+          <label for="red">Red</label><br />
+
+          <input type="radio" id="blue2" name="color" value="blue" />
+          <label for="blue">Blue</label><br />
+
+          <input type="radio" id="yellow2" name="color" value="yellow" />
+          <label for="yellow">Yellow</label><br />
+
+          <input type="radio" id="green2" name="color" value="green" />
+          <label for="green">Green</label><br />
+        </div>
+
+        <label for="topspeed2">TOP SPEED</label>
+        <input type="number" id="topspeed2" name="topspeed2" placeholder="Enter top speed in km/h..." required />
+      </form>
+
+      <form class="race">
+        <label for="distance">RACE DISTANCE</label>
+        <input type="number" id="distance" name="distance" placeholder="Enter track distance in km..." required /><br /><br />
+        <button class="resultsbtn" role="button" onclick="results(event)">START RACE</button>
+      </form>
+      
+    </section>
+    <div id="resultsfinal" class="resultsfinal"></div>
+    
+  </body>
+</html>
