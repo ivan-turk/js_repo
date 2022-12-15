@@ -22,10 +22,10 @@ function statistika() {
   } else if (brojac <= 4 && brojac >= 2) {
     uiObjekti.statistika.innerHTML = `Kliknuli ste ${brojac} puta do rezultata! Osvojeno 1. mjesto!`;
     uiObjekti.statistika.style.display = "block";
+    uiObjekti.nagrada.style.display = "block";
   } else {
     uiObjekti.statistika.innerHTML = `Kliknuli ste ${brojac} puta do rezultata! Potrudite se više za nagradu!`;
     uiObjekti.statistika.style.display = "block";
-    uiObjekti.nagrada.style.display = "block";
   }
 }
 
