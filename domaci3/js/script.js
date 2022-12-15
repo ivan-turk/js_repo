@@ -1,5 +1,5 @@
 let uiObjekti = {
-  zamisljeniBroj: 5,
+  zamisljeniBroj: Math.floor(Math.random() * 100),
   label: document.getElementById("label"),
   uneseniBroj: document.getElementById("unos"),
   btnPlay: document.getElementById("btn"),
@@ -22,10 +22,10 @@ function statistika() {
   } else if (brojac <= 4 && brojac >= 2) {
     uiObjekti.statistika.innerHTML = `Kliknuli ste ${brojac} puta do rezultata! Osvojeno 1. mjesto!`;
     uiObjekti.statistika.style.display = "block";
-    uiObjekti.nagrada.style.display = "block";
   } else {
     uiObjekti.statistika.innerHTML = `Kliknuli ste ${brojac} puta do rezultata! Potrudite se više za nagradu!`;
     uiObjekti.statistika.style.display = "block";
+    uiObjekti.nagrada.style.display = "block";
   }
 }
 
