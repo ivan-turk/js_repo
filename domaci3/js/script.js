@@ -5,7 +5,6 @@ let uiObjekti = {
   btnPlay: document.getElementById("btn"),
   btnReset: document.getElementById("btn2"),
   arrowBox: document.getElementById("arrow-box"),
-  poruka: document.getElementById("msg"),
   statistika: document.getElementById("statistika"),
 };
 
