@@ -1,5 +1,5 @@
 let uiObjekti = {
-  zamisljeniBroj: Math.floor(Math.random() * 100),
+  zamisljeniBroj: 5,
   label: document.getElementById("label"),
   uneseniBroj: document.getElementById("unos"),
   btnPlay: document.getElementById("btn"),
