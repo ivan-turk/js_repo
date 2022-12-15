@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ivan Turk" />
+    <meta name="description" content="Igra pogađanja broja" />
+    <link rel="shortcut icon" type="image/x-icon" href="./multimedia/game.ico" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./js/script.js"></script>
+    <title>Pogodi broj app</title>
+  </head>
+  <body>
+    <section class="wrapper">
+      <form class="form">
+        <h1>Pogodi broj app</h1>
+        <label>Zamislio sam jedan broj od 1 - 100, pogodi koji?</label>
+        <input type="number" name="unos" id="unos" placeholder="Unesi cijeli broj od 1-100" required />
+        <button id="btn" class="btn" onclick="klikBtn(event)">Pogodi broj!</button>
+        <button id="btn2" class="btn2" onclick="resetBtn(event2)">Igraj ponovno!</button>
+        <h3>Brojač neuspjelih pogodaka</h3>
+        <div class="brojac-box"></div>
+      </form>
+    </section>
+  </body>
+</html>
