@@ -19,7 +19,7 @@ function statistika() {
   } else if (brojac <= 7 && brojac >= 5) {
     uiObjekti.statistika.innerHTML = `Kliknuli ste ${brojac} puta do rezultata! Osvojeno 2. mjesto!`;
     uiObjekti.statistika.style.display = "block";
-  } else if (brojac <= 4 && brojac >= 2) {
+  } else if (brojac <= 4 && brojac >= 1) {
     uiObjekti.statistika.innerHTML = `Kliknuli ste ${brojac} puta do rezultata! Osvojeno 1. mjesto!`;
     uiObjekti.statistika.style.display = "block";
     uiObjekti.nagrada.style.display = "block";
